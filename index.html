@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PolyGlot - Perfect Translation Every Time</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="header-section">
+            <div class="world-map"></div>
+            <div class="branding">
+                <img src="assets/parrot.png" alt="PolyGlot Parrot" class="logo">
+                <div class="title-container">
+                    <h1>PollyGlot</h1>
+                    <p>Perfect Translation Every Time</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="translation-card">
+            <h2>Text to translate ✨</h2>
+            <textarea id="text-to-translate" placeholder="How are you?"></textarea>
+            <h2>Select language ✨</h2>
+            <div class="language-selector">
+                <button type="button" id="french" class="language-btn" data-language="french">
+                    <img src="assets/fr-flag.png" alt="French Flag">
+                    French
+                </button>
+                <button type="button" id="spanish" class="language-btn" data-language="spanish">
+                    <img src="assets/sp-flag.png" alt="Spanish Flag">
+                    Spanish
+                </button>
+                <button type="button" id="japanese" class="language-btn" data-language="japanese">
+                    <img src="assets/jpn-flag.png" alt="Japanese Flag">
+                    Japanese
+                </button>
+            </div>
+            <button type="button" id="translate-btn">Translate</button>
+            <div id="translation-result"></div>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

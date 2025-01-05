@@ -1,0 +1,8 @@
+name = "pollyglot-backend"
+main = "server.js"
+compatibility_date = "2024-01-04"
+
+[vars]
+# Add your OpenAI API key here for local development
+# For production, set this in the Cloudflare dashboard
+OPENAI_API_KEY = "" # Add your API key here for local development

@@ -1,0 +1,23 @@
+{
+  "name": "pollyglot",
+  "version": "1.0.0",
+  "description": "AI-powered translation application using OpenAI's GPT-4",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "openai": "^4.24.1",
+    "vite": "^5.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "wrangler": "^3.22.1",
+    "@vitejs/plugin-basic-ssl": "^1.0.2"
+  },
+  "author": "Samuel Smith",
+  "license": "MIT"
+}
